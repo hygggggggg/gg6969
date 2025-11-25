@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    color: #0056b3;
+    margin-bottom: 25px;
+}
+
+.info-card {
+    border-top: 1px solid #eee;
+    padding-top: 25px;
+    margin-top: 25px;
+    text-align: left; /* 讓內容靠左對齊 */
+}
+
+.info-item {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.info-item .label {
+    font-weight: bold;
+    color: #555;
+    min-width: 80px; /* 統一標籤寬度 */
+}
+
+.info-item .value {
+    color: #333;
+}
+
+.signature {
+    margin-top: 20px;
+    border-top: 1px dashed #eee;
+    padding-top: 20px;
+    text-align: center; /* 簽名居中 */
+}
+
+.signature p {
+    font-style: italic;
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: center; /* 聯絡資訊居中 */
+}
+
+.contact-item {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; /* 聯絡資訊項目居中 */
+    align-items: center;
+}
+
+.contact-item .label {
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.contact-item .value {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item .value:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
